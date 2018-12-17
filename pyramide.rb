@@ -7,17 +7,20 @@ i=1
 y="#"
 w="#"
 z=" "
-
+m=" "
 
 while i<= chiffre do 
     
    
-   while z.length < espace do
-      z=z+z
+   while z.length <= espace do
+      z=z+m
    end
 
-   puts "#{z} #{y}"
-espace=espace-1
+   puts "#{z}#{y}"
+
+   espace=espace-1
+   z=" "
+
 i=i+1
 y=y+w
 
