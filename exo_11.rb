@@ -1,6 +1,8 @@
 puts "hello, donne moi un nombre stp"
-nbr=gets.chomp
-nombre=nbr.to_i
+#nbr=gets.chomp
+#nombre=nbr.to_i
+
+nombre=gets.chomp.to_i
 
 i=1
 while i<nombre do
